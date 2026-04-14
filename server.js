@@ -343,4 +343,4 @@ function calcConfidence({ phone, email, verified, sourcesCount }) {
   return Math.min(score, 100);
 }
 
-app.listen(PORT, '0.0.0.0', () => ...) console.log(`LeadGen backend on port ${PORT} — 8 sources active`));
+app.listen(PORT, () => console.log(`LeadGen backend on port ${PORT} — 8 sources active`));
